@@ -1,0 +1,234 @@
+body{
+	width: 100%;
+	background-color: #F7F3E6;
+}
+
+
+
+body h1{
+	font-family: 'Fascinate Inline', cursive;
+}
+body p{
+	font-family: 'Gayathri', sans-serif;
+}
+body h2{
+	font-family: 'Fascinate Inline', cursive;
+}
+
+.w3-bar {
+	background-color: #bfbfbf;
+	
+	
+}
+.w3-bar h2{
+	font-size: 30px;
+	text-shadow: 1px 1px 3px #E5E4E2;
+}
+#trade-name img{
+	vertical-align: middle;
+	width: 100px;
+	height: 80px;
+	margin:0px;
+	padding: 0px 10px;
+}
+
+.w3-bar a {
+	font-family: 'Gayathri', sans-serif;
+	font-size: 20px;
+	
+	margin: 33px 15px;
+}
+
+.w3-bar a:hover{
+	color: white;
+}
+
+#demo {
+	background-color: #bfbfbf;
+}
+#demo a {
+	text-align: center;
+	font-family: 'Gayathri', sans-serif;
+	font-size: 20px;
+}
+
+#intro{
+	z-index: -1;
+	position: absolute;
+	margin: 0 auto ;
+	width: 100%;
+	
+	height: 100vh;
+}
+#thing h1{
+	font-size: 80px;
+	color: #104070;
+	margin-top: 300px;
+	text-shadow: 0 2px 5px #98AFC7;
+	
+}
+#thing p{
+	font-size: 25px;
+	padding-top: 30px;
+	text-shadow: 1px 1px 3px #848482;
+	
+}
+
+
+#thing{
+	height: 100vh;
+	width: 100%;
+	background: rgba( 199, 199, 199, 0.6);
+	padding: 0 30px;
+	text-align: center;
+}
+#services{
+	margin: 0 auto;
+	
+	
+
+}
+#services h2{
+	color: #104070;
+	font-size: 80px ;
+	margin: 200px auto 70px;
+	text-align: center;
+	text-shadow: 1px 1px 3px #848482;
+}
+#tuning{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+	background-color: #bacfb0;
+	margin: 20px;
+	padding: 10px 40px;
+	border-radius: 10px;
+	border: 2px solid;
+	grid-column: 2/3;
+	text-shadow: 1px 1px 3px #848482;
+}
+#tuning h1{
+	font-size: 65px;
+	text-shadow: 1px 1px 3px #848482;
+}
+#tuning img{
+	width: 100px;
+	height: 100px;
+}
+#video{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+#video p{
+	text-align: center;
+	font-size: 25px ;
+	margin: 45px;	
+
+}
+
+#contact{
+	margin-top: 10px;
+	padding-top: 17px;
+	
+}
+#contact p{
+	
+	font-size: 25px;
+	text-align: center;
+
+}
+
+#br{
+	padding: 58px;
+}
+#gg{
+	
+	font-size: 80px;
+	text-align: center;
+	color: #104070;
+	margin: 0 auto;
+
+}
+
+#gh{
+	margin-top: 70px;
+}
+
+
+
+
+@media only screen and (max-width  : 800px) {
+
+	.w3-bar h2{
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+#trade-name img {
+	display: none;
+}
+
+#thing h1 {
+	font-size: 50px;
+	margin-top: 200px;
+}
+
+#tuning h1 {
+	font-size: 40px;
+}
+
+#contact p{
+	
+	font-size: 20px;
+}
+ #thing p {
+ 	font-size: 18px;
+ }
+ 
+
+
+}
+
+
+
+@media only screen and (max-width  : 1120px) {
+
+.w3-bar h2{
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#trade-name img {
+	display: none;
+}
+
+#thing h1 {
+	font-size: 50px;
+	margin-top: 200px;
+}
+
+#tuning h1 {
+	font-size: 40px;
+}
+
+#contact p{
+	
+	font-size: 20px;
+}
+ #thing p {
+ 	font-size: 20px;
+ }
+ 
+ .w3-bar a {
+	
+	font-size: 16px;
+}
+
+
+}
