@@ -205,6 +205,11 @@ body h2{
 
 @media only screen and (max-width  : 1120px) {
 
+
+.w3-bar {
+	height: 100px;
+}
+
 .w3-bar h2{
 	font-size: 18px;
 	margin-top: 30px;
@@ -215,12 +220,16 @@ body h2{
 	top: 30px;
 }
 
+#intro {
+	height: 575px;
+}
+
 #trade-name img {
 	display: none;
 }
 
 #thing h1 {
-	font-size: 50px;
+	font-size: 35px;
 	margin-top: 200px;
 }
 
@@ -236,7 +245,7 @@ body h2{
 	font-size: 20px;
 }
  #thing p {
- 	font-size: 18px;
+ 	font-size: 16px;
  }
  
  .w3-bar a {
