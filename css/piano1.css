@@ -221,7 +221,10 @@ body h2{
 }
 
 #intro {
-	height: 575px;
+	height: 600px;
+}
+#thing{
+	height: 600px;
 }
 
 #trade-name img {
